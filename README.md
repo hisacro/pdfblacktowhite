@@ -2,13 +2,17 @@
 
 This Python script automatically converts dark-background pdf pages to white-background pages with texts color. It supports selective page processing, allowing you to specify which pages to convert. I created this script because I faced the issue with a pdf having random pages with dark backgrounds and white text, which I wanted to be all white. This code processes those pages by changing the background to white and the text to black, resulting in an output pdf with white pages and properly colored text.
 
+
 # What it does?
  Takes your PDF and lets you pick which pages to fix.
  Changes only those chosen pages into pictures.
- Makes the pictures have white backgrounds and black text.
+ Makes the pictures have white backgrounds and black text (vice versa).
  Changes the pictures back into PDF pages.
  Puts these fixed pages back into the original PDF without changing the other pages.
  Creates a new PDF that is easier to read on the pages you fixed.
+
+<img width="767" height="598" alt="sample1" src="https://github.com/user-attachments/assets/ed516dc1-bd0a-40ea-8270-b6f9817bd1ac" />
+
 
 # How to Use
 
@@ -47,7 +51,7 @@ Lets say, I have 3 to 21 all black and I want to convert it to white, I will use
 python pdfcolorinvert.py input.pdf output.pdf 3-21
 ```
 
-# completion
+#### completion
 You will see "Your output is written to: {output_pdf}", once you have successfully gotten the output.
 Enjoy!!
 
