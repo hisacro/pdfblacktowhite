@@ -55,4 +55,8 @@ python pdfcolorinvert.py input.pdf output.pdf 3-21
 You will see "Your output is written to: {output_pdf}", once you have successfully gotten the output.
 Enjoy!!
 
+# To-Do
+
+[] Scale pages equally on non processed pages in output pdf
+[] Add support for colors other than black
           
