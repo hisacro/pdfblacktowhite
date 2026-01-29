@@ -16,15 +16,23 @@ Requirements: Python 3.13.11
 
 Install the Python packages:
 You need to creates a new virtual environment in the same directory you are working in. A virtual environment is like a separate, isolated workspace for Python projects where you can install packages without affecting your main system Python or other projects. You can make VE using below command,
+
+```
 python -m venv <myenv>
+```
 
 Once done making a virtual environment, you need to activate the environmnet using below command,
+
+```
 source myenv/bin/activate
+```
 
 you will see (myenv) at the start of the prompt, which tells you the virtual environment is active.
 Now install the other python package with,
 
+```
 pip install pypdf Pillow
+```
 
 # Running the Script
 Now we have everything ready, its time to run it, using below command inside venv. 
